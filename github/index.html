@@ -5,7 +5,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name='freelancehunt' content='e762033bceff45b'>
   <title>Cайт портфолио веб-разработчика | Портфолио фрилансера, разработка сайтов, создание сайтов</title>
   <link
     href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,600%7CLa+Belle+Aurore%7CRoboto&display=swap&subset=cyrillic"
@@ -16,11 +15,12 @@
 
 <body>
 
+  
   <header class="header" id="home">
     <div class="header__wrapper">
       <div class="header__wrapper-top">
         <div class="header__wrapper-top__row">
-          <a class="logotype wow slideInLeft" href="#home">
+          <a class="logotype wow slideInLeft" href="/">
             <span class="logo-name">Arystanbekov</span>
             <span class="logo-pro">Портфолио веб-разработчика</span>
           </a>
@@ -65,7 +65,7 @@
               <ul role="menu">
                 <li><a href="#home" role="menuitem">Главная</a></li>
                 <li><a href="#about" role="menuitem">Обо мне</a></li>
-                <li><a href="#portfolio" role="menuitem">Портфолио</a></li>
+                <li><a href="#projects" role="menuitem">Портфолио</a></li>
                 <li><a href="#services" role="menuitem">Услуги</a></li>
                 <li><a href="#contacts" role="menuitem">Контакты</a></li>
               </ul>
@@ -116,7 +116,7 @@
           <ul class="navbar-menu__list">
             <li><a class="navbar-menu__link" href="#home" rel='m_PageScroll2id'>Главная</a></li>
             <li><a class="navbar-menu__link" href="#about" rel='m_PageScroll2id'>Обо мне</a></li>
-            <li><a class="navbar-menu__link" href="#portfolio" rel='m_PageScroll2id'>Портфолио</a></li>
+            <li><a class="navbar-menu__link" href="#projects" rel='m_PageScroll2id'>Портфолио</a></li>
             <li><a class="navbar-menu__link" href="#services" rel='m_PageScroll2id'>Услуги</a></li>
             <li><a class="navbar-menu__link" href="#contacts" rel='m_PageScroll2id'>Контакты</a></li>
           </ul>
@@ -146,7 +146,6 @@
       </a>
     </div>
   </header>
-
 
   <section class="about" id="about">
     <div class="about__wrapper">
@@ -208,53 +207,52 @@
     </div>
   </section>
 
-
-  <section class="portfolio" id="portfolio">
-    <div class="portfolio__wrapper">
-      <h2 class="default-title portfolio__wrapper-title wow slideInDown" data-wow-offset="200">Проекты</h2>
-      <div class="portfolio__wrapper-columns wow fadeIn" data-wow-offset="300" data-wow-delay="1s">
-        <div class="portfolio-col">
-          <div class="portfolio-container">
-            <div class="portfolio-front" style="background-image: url(img/barbershop-work.jpg);"></div>
-            <div class="portfolio-back">
-              <p>Borodinski Barbershop</p>
-              <a href="#" class="pf-btn">Посмотреть</a>
-            </div>
-          </div>
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="projects__wrapper">
+        <div class="projects__title">
+          Проекты
         </div>
-        <div class="portfolio-col">
-          <div class="portfolio-container">
-            <div class="portfolio-front" style="background-image: url(img/leedskz-work.jpg);"></div>
-            <div class="portfolio-back">
-              <p>Leeds.kz</p>
-              <a class="pf-btn">Посмотреть</a>
+        <div class="projects__gallery">
+          <div class="projects__gallery-row">
+            <div class="gallery-col">
+              <img src="img/designium.jpg" alt="Студия дизайна интерьера">
+              <div class="gallery-col__content">
+                <div class="gallery-items">
+                  <div class="items__title">Студия дизайна интерьера «Designium.net»</div>
+                  <div class="items__text">Услуга проектирование домов, дизайна интерьера в современном стиле.</div>
+                  <a class="items__link" href="gallery/designium/designium-view.html">www.designium.net</a>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-col">
+              <img src="img/leedskz-work.jpg" alt="интернет-магазин часов">
+              <div class="gallery-col__content">
+                <div class="gallery-items">
+                  <div class="items__title">Интернет-магазин часов «Leeds.kz»</div>
+                  <div class="items__text">Японский механизм от «Seiko»</div>
+                  <a class="items__link" href="gallery/leedskz/leedskz-view.html">www.leeds.kz</a>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-col">
+              <img src="img/barbershop-work.jpg" alt="Барбершоп">
+              <div class="gallery-col__content">
+                <div class="gallery-items">
+                  <div class="items__title">Barbershop «Borodinski.ru»</div>
+                  <div class="items__text">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или
+                    кино! Во всяком случае внешне.
+                  </div>
+                  <a class="items__link" href="gallery/borodinski/borodinski-view.html">www.borodinski.ru</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="portfolio-col">
-          <div class="portfolio-container">
-            <div class="portfolio-front portfolio__templ-finance" style="background-image: url(img/finance-work.jpg);">
-            </div>
-            <div class="portfolio-back">
-              <p>Finance consulting</p>
-              <a class="pf-btn">Посмотреть</a>
-            </div>
-          </div>
-        </div>
-        <div class="portfolio-col">
-          <div class="portfolio-container">
-            <div class="portfolio-front portfolio__templ-finance" style="background-image: url(img/bluerex.jpg);">
-            </div>
-            <div class="portfolio-back">
-              <p>BlueRex</p>
-              <a class="pf-btn">Посмотреть</a>
-            </div>
-          </div>
+          <a class="projects__gallery-btn" href="#"><span>Посмотреть все проекты</span></a>
         </div>
       </div>
     </div>
   </section>
-
 
   <section class="services" id="services">
     <div class="services__wrapper">
@@ -305,13 +303,13 @@
             <span class="services-name">
               Сайт-визитка
             </span>
-            <span class="services-day-quantity">до 5 страниц</span>
-            <span class="services-day-work">2-7 дней</span>
+            <span class="services-day-quantity">1-3 страницы</span>
+            <span class="services-day-work">1-3 дня</span>
             <p class="services-descr">Главная цель создания сайта-визитки — первичное ознакомление потенциальных
               клиентов с компанией. Отличительные черты — информативность, лаконичность, индивидуальность,
               привлекательный дизайн. Проще говоря, сайт-визитка — это электронная «визитная карточка» компании или
               отдельного человека, с описанием деятельности.</p>
-            <span class="services-price">от 20 000тг.</span>
+            <span class="services-price">от 18 000тг.</span>
           </div>
         </div>
         <div class="services-col">
@@ -348,7 +346,7 @@
         <div class="services-col">
           <div class="services-col__inner">
             <span class="services-name services__online-store">
-              Интернет-магазин (готовые решения на cms)
+              Интернет-магазин по готовым решениям
             </span>
             <span class="services-day-quantity">многостраничный сайт</span>
             <span class="services-day-work">2-14 дней</span>
@@ -394,7 +392,7 @@
             <p class="services-descr">Ежедневно более 80% пользователей выходят в интернет при помощи своих мобильных
               устройств. Сегодня для успешного развития бизнесу просто необходимо соответствовать требованиям времени и
               иметь сайт, адаптированный под все виды мобильных устройств.</p>
-            <span class="services-price">от 7000тг.</span>
+            <span class="services-price">от 7 000тг.</span>
           </div>
         </div>
         <div class="services-col">
@@ -402,18 +400,17 @@
             <span class="services-name">
               Другие услуги
             </span>
-            <span class="services-day-quantity">1 задача</span>
+            <span class="services-day-quantity">Одна задача</span>
             <span class="services-day-work">1-3 дня</span>
             <p class="services-descr">Если у вас есть готовый веб-сайт или вам необходимо разработать, доработать,
               исправить проект, вы можете по отдельности заказать услугу дизайна, функционал сайта, посадка на
               CMS (wordpress), залить в хостинг и т.д.</p>
-            <span class="services-price">от 4000тг.</span>
+            <span class="services-price">от 5000тг.</span>
           </div>
         </div>
       </div>
     </div>
   </section>
-
 
   <footer class="footer" id="contacts">
     <div class="footer__wrapper">
@@ -423,18 +420,24 @@
         связаться со мной, используя форму ниже.</span>
       <form class="wow fadeIn" data-wow-offset="200">
         <!-- Hidden Required Fields -->
-        <input type="hidden" name="project_name" value="leeds.kz">
+        <input type="hidden" name="project_name" value="view-anuarnz">
         <input type="hidden" name="admin_email" value="anuarnz@mail.ru">
-        <input type="hidden" name="form_subject" value="Form Subject Shop page">
+        <input type="hidden" name="form_subject" value="Form Subject">
         <!-- END Hidden Required Fields -->
         <input type="text" name="Имя" placeholder="Имя" class="name" required><br>
         <input name="E-mail" placeholder="E-mail" class="email" type="email" required><br>
         <textarea rows="4" cols="500" name="subject" placeholder="Сообщение" class="message" required></textarea>
         <button class="btn-form">Отправить</button>
       </form>
+      <a class="footer__wrapper__arrow-up animated fadeInUp infinite slow" href="#home" rel='m_PageScroll2id'>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18" height="28" viewBox="0 0 18 28">
+          <path
+            d="M16.797 13.5c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-7.281-7.281c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.219-0.156 0.359-0.156 0.125 0 0.266 0.063 0.359 0.156l6.141 6.141 6.141-6.141c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l0.781 0.781c0.094 0.094 0.156 0.234 0.156 0.359zM16.797 7.5c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-7.281-7.281c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.219-0.156 0.359-0.156 0.125 0 0.266 0.063 0.359 0.156l6.141 6.141 6.141-6.141c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l0.781 0.781c0.094 0.094 0.156 0.234 0.156 0.359z">
+          </path>
+        </svg>
+      </a>
     </div>
   </footer>
-
 
 
 

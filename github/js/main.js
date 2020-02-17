@@ -40,8 +40,4 @@ $(function () {
     });
   });
 
-  // $("#portfolio-flip").click(function () {
-  //   $(this).toggleClass("portfolio-col");
-  // }); //portfolio при нажатии на карточку
-
 });
